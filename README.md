@@ -27,13 +27,13 @@ It sends these commands over Wi-Fi to a Raspberry Pi, which drives motors accord
 1. **Train your model** on your eye dataset:
 
     ```bash
-    python train_model.py
+    python ysa.py
     ```
 
 2. **Run live eye tracking and send commands:**
 
     ```bash
-    python live_tracking.py
+    python ysa.py
     ```
 
 3. **Start motor control server on Raspberry Pi:**
@@ -62,9 +62,5 @@ Prepare your images in `Data/` folder with four subfolders named:
 
 ## License & Contact
 
-MIT License | Developed by Ayşe Z.  
-Contact: aysez@example.com
-
----
-
-Drive your car with your eyes — welcome to the future of hands-free control! 🚀
+Apache License Version 2.0
+Contact: aysezeynepaydogdu@gmail.com
